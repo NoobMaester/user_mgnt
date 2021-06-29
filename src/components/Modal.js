@@ -24,7 +24,7 @@ const Modal = ({handleClick2, remove, user, id}) => {
                         <select>
                             <option value="1">Select</option>
                             <option value="SERVICES">SERVICES</option>
-                            <option value="HR">HR</option>
+                            <option value="HR">HR</option> 
                         </select>
                     </div>
 

@@ -198,6 +198,9 @@ body {
 .form- input{
   padding: 5px;
 }
+.form- select{
+  padding: 5px;
+}
 .btnz{
   margin-top: 20px;
   display: flex;
@@ -252,7 +255,7 @@ body {
     margin-right: 20px;
   }
   .text-2{
-    top: 30%;
+    top: 10%;
     left: 10%;
     right: 10%;
   }

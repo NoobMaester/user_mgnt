@@ -1,7 +1,7 @@
 import React from 'react'
 import User from './User'
 
-const Users = ({users, search, handleClick2, remove}) => {
+const Users = ({users, handleClick2, remove}) => {
 
     return (
         <div className='user-list'>

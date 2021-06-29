@@ -1,12 +1,6 @@
 import {FaPlus, FaSearch} from 'react-icons/fa'
-import {useState} from 'react';
-
 
 const Header = ({handleClick, clicked}) => {
-    const [search, setSearch] = useState('');
-    if (!search){
-        console.log('input something motherfucker');
-    }
     
     return (
         <div>
@@ -21,7 +15,7 @@ const Header = ({handleClick, clicked}) => {
                         type="search" 
                         className='form-control form-control-sm' 
                         placeholder = 'Search by Name...'
-                        onChange = {(e) => {setSearch(e.target.value)}}
+                        
                     />
                     <select className='form-control form-control-sm'>
                         <option value="1">Department</option>
